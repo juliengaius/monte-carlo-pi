@@ -1,0 +1,35 @@
+# build / simulation output
+build/
+*.vvp
+*.vcd
+*.wlf
+
+# ModelSim
+work/
+transcript
+*.mti
+*.mpf
+
+# Quartus generated
+quartus/db/
+quartus/incremental_db/
+quartus/output_files/
+quartus/simulation/
+*.qws
+*.bak
+*.cnx
+*.cnxerr
+*.sld
+*.rpt
+*.summary
+*.smsg
+*.done
+*.jdi
+*.pin
+*.sof
+*.pof
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
