@@ -85,7 +85,7 @@ The π readout sometimes showed 0.0000 or .9999 even though the counters were co
 
 | | Julien Seepersadsingh | Emily Wang |
 |---|---|---|
-| Course project | `control_fsm` implementation, `pi_divider`, `lfsr32`, `hex_pi_driver`, PS/2 keyboard interface; fixed-point research and scaling | module architecture, FSM design and handshakes, `point_fsm`, `unitizer`, `hit_kernel`, `mc_counters`, `sprite_drawer`, all screen art |
+| Course project | module architecture, FSM design and start/done handshakes, `control_fsm` implementation, `lfsr32`, `pi_divider`, `hex_pi_driver`, PS/2 keyboard interface; fixed-point research and scaling | `point_fsm`, `unitizer`, `hit_kernel`, `mc_counters`, `sprite_drawer`, all screen art |
 | After the course | C reference model, unit tests, RTL-vs-model comparison, CI, this write-up | |
 
 The VGA adapter, controller, address translator, PLL and the `object_mem` ROM wrapper in [`third_party/`](third_party) came with the course's VGA starter code (built on Intel Quartus IP).
